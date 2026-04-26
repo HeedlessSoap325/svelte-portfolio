@@ -1,5 +1,6 @@
 <script lang="ts">
 	import favicon from '$lib/assets/favicon.svg';
+    import Footer from '$lib/components/Footer.svelte';
     import Nav from '$lib/components/Nav.svelte';
 
 	let { children } = $props();
@@ -13,9 +14,19 @@
 
 <Nav></Nav>
 
-{@render children()}
+<main>
+	{@render children()}
+</main>
+
+<Footer></Footer>
 
 <style>
+	main {
+		flex: 1;
+		display: flex;
+		flex-direction: column;
+	}
+
 	:global {
 		*, *::before, *::after { 
 			box-sizing: border-box; 
@@ -38,9 +49,12 @@
 
 		html { 
 			scroll-behavior: smooth; 
+			overflow-x: hidden;
 		}
 
 		body {
+			display: flex;
+			flex-direction: column;
 			background: var(--bg);
 			color: var(--text);
 			font-family: var(--mono);
