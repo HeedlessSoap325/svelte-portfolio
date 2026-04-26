@@ -1,19 +1,17 @@
 <script lang="ts">
 	import { resolve } from '$app/paths';
 	import { page } from '$app/state';
+    import { paths } from '$lib/path';
 </script>
 
-<div>
 <nav>
 	<a href={resolve("/")} class="nav-logo">heedlesssoap<span class="dot">.</span>dev</a>
 	<ul class="nav-links">
-		<li> <a href={resolve("/")} 		class:active={page.url.pathname === "/"}>home</a>			  </li>
-		<li> <a href={resolve("/about")} 	class:active={page.url.pathname === "/about"}>about</a>		  </li>
-		<li> <a href={resolve("/projects")} class:active={page.url.pathname === "/projects"}>projects</a> </li>
-		<li> <a href={resolve("/contact")} 	class:active={page.url.pathname === "/contact"}>contact</a>	  </li>
+		{#each paths as path (path.name)}
+			<li> <a href={resolve(path.href)} class:active={page.url.pathname === path.href}>{path.name}</a> </li>	
+		{/each}
 	</ul>
 </nav>
-</div>
 
 <style>
 	nav {
