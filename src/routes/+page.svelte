@@ -7,10 +7,10 @@
 		<span class="accent">Heedless</span><br>
 		<span class="white">Soap<span class="stroke">325</span></span>
 	</h1>
-	<p class="home-subtitle">
-		Hi! I'm a Full-stack developer & am learning low level languages!<br>
-		On this Page you can find everything about what I do.
-	</p>
+	<div class="home-subtitle">
+		<p class="subtitle">Hi! I'm a Full-stack developer & am learning low level languages!</p>
+		<p class="subtitle">On this Page you can find everything about what I do.</p>
+	</div>
 	<div class="home-actions">
 		<a href={resolve("/projects")} class="btn btn-accent">View Projects</a>
 		<a href={resolve("/contact")}  class="btn btn-stroke">Get in touch</a>
@@ -27,6 +27,7 @@
 	}
 
 	.home-title {
+		margin-top: 1rem;
 		font-family: var(--display);
 		font-weight: 800;
 		font-size: clamp(2.3rem, 8vw, 6rem);
@@ -45,7 +46,9 @@
 	}
 
 	.home-subtitle {
-		font-size: 0.9rem;
+		display: flex;
+		flex-direction: column;
+		font-size: 1rem;
 		color: var(--muted);
 		max-width: 450px;
 		line-height: 1.8;
@@ -96,5 +99,27 @@
 		color: var(--text);
 		border-color: rgba(255,255,255,0.2);
 		transform: translateY(-2px);
+	}
+
+	@media (max-width: 640px) {
+		.home-title {
+			margin-top: 3rem;
+		}
+
+		.home-content {
+			align-items: center;
+		}
+
+		.home-subtitle {
+			font-size: 0.9rem;
+			max-width: 250px;
+			text-align: center;
+			margin-bottom: 3rem;
+			gap: 0.8rem;
+		}
+
+		.home-actions {
+			flex-direction: column;
+		}
 	}
 </style>
