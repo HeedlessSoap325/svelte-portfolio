@@ -2,23 +2,23 @@
 	import { resolve } from '$app/paths';
 </script>
 
-<div class="home-content">
-	<h1 class="home-title">
+<div class="content">
+	<h1 class="title">
 		<span class="accent">Heedless</span><br>
 		<span class="white">Soap<span class="stroke">325</span></span>
 	</h1>
-	<div class="home-subtitle">
+	<div class="subtitles">
 		<p class="subtitle">Hi! I'm a Full-stack developer & am learning low level languages!</p>
 		<p class="subtitle">On this Page you can find everything about what I do.</p>
 	</div>
-	<div class="home-actions">
+	<div class="actions">
 		<a href={resolve("/projects")} class="btn btn-accent">View Projects</a>
 		<a href={resolve("/contact")}  class="btn btn-stroke">Get in touch</a>
 	</div>
 </div>
 
 <style>
-	.home-content {
+	.content {
 		display: flex;
 		flex-direction: column;
 		max-width: fit-content;
@@ -26,7 +26,7 @@
 		width: 100%;
 	}
 
-	.home-title {
+	.title {
 		margin-top: 1rem;
 		font-family: var(--display);
 		font-weight: 800;
@@ -36,16 +36,16 @@
 		margin-bottom: 1.5rem;
 	}
 
-	.home-title .stroke {
+	.title .stroke {
 		color: transparent;
 		-webkit-text-stroke: 1px rgba(255,255,255,0.25);
 	}
 
-	.home-title .accent { 
+	.title .accent { 
 		color: var(--accent);
 	}
 
-	.home-subtitle {
+	.subtitles {
 		display: flex;
 		flex-direction: column;
 		font-size: 1rem;
@@ -55,7 +55,7 @@
 		margin-bottom: 3rem;
 	}
 
-	.home-actions {
+	.actions {
 		display: flex;
 		gap: 1rem;
 		flex-wrap: wrap;
@@ -102,15 +102,15 @@
 	}
 
 	@media (max-width: 640px) {
-		.home-title {
+		.title {
 			margin-top: 3rem;
 		}
 
-		.home-content {
+		.content {
 			align-items: center;
 		}
 
-		.home-subtitle {
+		.subtitles {
 			font-size: 0.9rem;
 			max-width: 250px;
 			text-align: center;
@@ -118,7 +118,7 @@
 			gap: 0.8rem;
 		}
 
-		.home-actions {
+		.actions {
 			flex-direction: column;
 		}
 	}
