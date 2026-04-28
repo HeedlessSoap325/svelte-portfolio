@@ -75,167 +75,167 @@ export const tools: Map<ToolType, Tool[]> = new Map([
 		},
 		{
 			name: "Cloaudflare",
-			href: "https://TODO/"
+			href: "https://www.cloudflare.com"
 		},
 		{
 			name: "Netlify",
-			href: "https://TODO/"
+			href: "https://www.netlify.com/"
 		},
 	]],
 	[ToolType.FRAMEWORKS, [
 		{
 			name: "Anaconda",
-			href: "https://TODO/"
+			href: "https://www.anaconda.com/"
 		},
 		{
 			name: "Angular",
-			href: "https://TODO/"
+			href: "https://angular.dev/"
 		},
 		{
 			name: "Bootstrap",
-			href: "https://TODO/"
+			href: "https://getbootstrap.com/"
 		},
 		{
 			name: "Express.js",
-			href: "https://TODO/"
+			href: "https://expressjs.com/"
 		},
 		{
 			name: "Fastify",
-			href: "https://TODO/"
+			href: "https://fastify.dev/"
 		},
 		{
 			name: "JWT",
-			href: "https://TODO/"
+			href: "https://www.jwt.io/"
 		},
 		{
 			name: "MUI",
-			href: "https://TODO/"
+			href: "https://mui.com/"
 		},
 		{
 			name: "NPM",
-			href: "https://TODO/"
+			href: "https://www.npmjs.com/"
 		},
 		{
 			name: "Next JS",
-			href: "https://TODO/"
+			href: "https://nextjs.org/"
 		},
 		{
 			name: "Node.js",
-			href: "https://TODO/"
+			href: "https://nodejs.org/"
 		},
 		{
 			name: "Nodemon",
-			href: "https://TODO/"
+			href: "https://nodemon.io/"
 		},
 		{
 			name: "React",
-			href: "https://TODO/"
+			href: "https://react.dev/"
 		},
 		{
 			name: "React Router",
-			href: "https://TODO/"
+			href: "https://reactrouter.com/"
 		},
 		{
 			name: "Redux",
-			href: "https://TODO/"
+			href: "https://redux.js.org/"
 		},
 		{
 			name: "Socket.io",
-			href: "https://TODO/"
+			href: "https://socket.io/"
 		},
 		{
-			name: "Spring",
-			href: "https://TODO/"
+			name: "Spring (Boot)",
+			href: "https://spring.io/"
 		},
 		{
 			name: "Svelte",
-			href: "https://TODO/"
+			href: "https://svelte.dev/"
 		},
 		{
 			name: "SvelteKit",
-			href: "https://TODO/"
+			href: "https://svelte.dev/docs/kit/introduction"
 		},
 		{
 			name: "Vite",
-			href: "https://TODO/"
+			href: "https://vite.dev/"
 		},
 	]],
 	[ToolType.DATABASE, [
 		{
 			name: "MariaDB",
-			href: "https://TODO/"
+			href: "https://mariadb.org/"
 		},
 		{
 			name: "MongoDB",
-			href: "https://TODO/"
+			href: "https://www.mongodb.com/"
 		},
 		{
 			name: "MySQL",
-			href: "https://TODO/"
+			href: "https://www.mysql.com/"
 		},
 		{
 			name: "Postgres",
-			href: "https://TODO/"
+			href: "https://www.postgresql.org/"
 		},
 	]],
 	[ToolType.CICD, [
 		{
 			name: "GitHub Actions",
-			href: "https://TODO/"
+			href: "https://github.com/features/actions"
 		},
 		{
 			name: "Git",
-			href: "https://TODO/"
+			href: "https://git-scm.com/"
 		},
 		{
 			name: "GitHub",
-			href: "https://TODO/"
+			href: "https://github.com/"
 		},
 	]],
 	[ToolType.MISC, [
 		{
 			name: "Arduino",
-			href: "https://TODO/"
+			href: "https://www.arduino.cc/"
 		},
 		{
 			name: "Bitwarden",
-			href: "https://TODO/"
+			href: "https://bitwarden.com/"
 		},
 		{
-			name: "Make",
-			href: "https://TODO/"
+			name: "GNU Make",
+			href: "https://www.gnu.org/software/make/"
 		},
 		{
 			name: "Docker",
-			href: "https://TODO/"
+			href: "https://www.docker.com/"
 		},
 		{
 			name: "ESLint",
-			href: "https://TODO/"
+			href: "https://eslint.org/"
 		},
 		{
 			name: "Gradle",
-			href: "https://TODO/"
+			href: "https://gradle.org/"
 		},
 		{
 			name: "Postman",
-			href: "https://TODO/"
+			href: "https://www.postman.com/"
 		},
 		{
 			name: "Raspberry PI",
-			href: "https://TODO/"
+			href: "https://www.raspberrypi.com/"
 		},
 		{
 			name: "Swagger",
-			href: "https://TODO/"
+			href: "https://swagger.io/"
 		},
 		{
 			name: "Wireguard",
-			href: "https://TODO/"
+			href: "https://www.wireguard.com/"
 		},
 		{
 			name: "Unity",
-			href: "https://TODO/"
+			href: "https://unity.com/"
 		},
 	]],
 ]);
