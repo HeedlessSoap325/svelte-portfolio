@@ -33,7 +33,7 @@
 				<div class="skills-title">// {toolTypes[type]}</div>
 				<div class="tools-list">
 					{#each tools.get(type) as tool (tool.name)}
-						<a href={tool.href} class="tool-tag">{tool.name}</a>
+						<a href={tool.href} target="_blank" class="tool-tag">{tool.name}</a>
 					{/each}
 				</div>
 			{/each}	
@@ -214,7 +214,7 @@
 		.grid { 
 			grid-template-columns: 1fr; 
 		}
-		
+
 		.bio { 
 			grid-column: auto; 
 		}
