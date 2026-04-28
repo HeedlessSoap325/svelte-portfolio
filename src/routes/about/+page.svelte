@@ -200,4 +200,23 @@
 		border-color: var(--accent);
 		background: rgba(0,229,160,0.05);
 	}
+
+	@media (max-width: 640px) {
+		#content { 
+			padding-left: 1.5rem; 
+			padding-right: 1.5rem; 
+		}
+
+		.header {
+			margin-bottom: 2rem;
+		}
+
+		.grid { 
+			grid-template-columns: 1fr; 
+		}
+		
+		.bio { 
+			grid-column: auto; 
+		}
+	}
 </style>
