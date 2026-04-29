@@ -1,3 +1,8 @@
+<script>
+    import DiscordSVG from "$lib/assets/DiscordSVG.svelte";
+    import GitHubSVG from "$lib/assets/GitHubSVG.svelte";
+
+</script>
 <div class="content">
 	<div class="header">
 		<h2 class="title fade-up">Let's talk.</h2>
@@ -14,7 +19,7 @@
 				me@heedlesssoap.dev
 			</a>
 			<a href="https://www.github.com/HeedlessSoap325" target="_blank" class="contact-link">
-				<div class="contact-link-icon">gh</div>
+				<div class="contact-link-icon"><GitHubSVG width="25px" height="25px" color="var(--muted)"></GitHubSVG></div>
 				github.com/HeedlessSoap325
 			</a>
 			<a href="https://www.linkedin.com/in/heedlessSoap325" target="_blank" class="contact-link">
@@ -22,7 +27,7 @@
 				linkedin.com/in/heedlessSoap325
 			</a>
 			<a href="https://discord.com/users/811664195518857236" target="_blank" class="contact-link">
-				<img class="contact-link-icon" src="https://www.svgrepo.com/show/447163/discord-outline.svg" alt=""/>
+				<div class="contact-link-icon"><DiscordSVG width="25px" height="25px" color="var(--muted)"></DiscordSVG></div>
 				@HeedlessSoap325
 			</a>
 		</div>
