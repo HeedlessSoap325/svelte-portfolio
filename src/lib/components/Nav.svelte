@@ -15,7 +15,11 @@
 
 <style>
 	nav {
-		z-index: 100;
+		position: fixed;
+		top: 0;
+		width: 100dvw;
+		z-index: 1000;
+		height: var(--nav);
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
