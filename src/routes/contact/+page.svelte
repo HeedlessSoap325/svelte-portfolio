@@ -37,7 +37,7 @@
 <style>
 	.content {
 		display: flex;
-		padding: 3rem 3rem 1rem;
+		padding: 1.5rem 3rem 1rem;
 		flex-direction: column;
 	}
 

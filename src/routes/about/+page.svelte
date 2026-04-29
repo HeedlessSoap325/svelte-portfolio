@@ -211,6 +211,10 @@
 			margin-bottom: 2rem;
 		}
 
+		.title, .desc {
+			text-align: center;
+		}
+
 		.grid { 
 			grid-template-columns: 1fr; 
 		}
