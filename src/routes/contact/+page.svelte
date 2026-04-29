@@ -9,25 +9,25 @@
 		<p class="desc fade-up">Have a project in mind? I'd love to hear about it.</p>
 	</div>
   
-	<div class="contact-info">
+	<div class="info">
 		<div class="desc" style="color: var(--muted);">
-			Whether you want to build something together, ask a question, or just chat — my inbox is always open.
+			Whether you want to build something together, ask a question, or just chat - my inbox is always open.
 		</div>
-		<div class="contact-links">
-			<a href="mailto:me@heedlesssoap.dev" target="_blank" class="contact-link">
-				<div class="contact-link-icon">✉</div>
+		<div class="links">
+			<a href="mailto:me@heedlesssoap.dev" target="_blank" class="link">
+				<div class="link-icon">✉</div>
 				me@heedlesssoap.dev
 			</a>
-			<a href="https://www.github.com/HeedlessSoap325" target="_blank" class="contact-link">
-				<div class="contact-link-icon"><GitHubSVG width="25px" height="25px" color="var(--muted)"></GitHubSVG></div>
+			<a href="https://www.github.com/HeedlessSoap325" target="_blank" class="link">
+				<div class="link-icon"><GitHubSVG width="25px" height="25px" color="var(--muted)"></GitHubSVG></div>
 				github.com/HeedlessSoap325
 			</a>
-			<a href="https://www.linkedin.com/in/heedlessSoap325" target="_blank" class="contact-link">
-				<div class="contact-link-icon">in</div>
+			<a href="https://www.linkedin.com/in/heedlessSoap325" target="_blank" class="link">
+				<div class="link-icon">in</div>
 				linkedin.com/in/heedlessSoap325
 			</a>
-			<a href="https://discord.com/users/811664195518857236" target="_blank" class="contact-link">
-				<div class="contact-link-icon"><DiscordSVG width="25px" height="25px" color="var(--muted)"></DiscordSVG></div>
+			<a href="https://discord.com/users/811664195518857236" target="_blank" class="link">
+				<div class="link-icon"><DiscordSVG width="25px" height="25px" color="var(--muted)"></DiscordSVG></div>
 				@HeedlessSoap325
 			</a>
 		</div>
@@ -63,7 +63,7 @@
 		text-align: center;
 	}
 
-	.contact-info {
+	.info {
 		position: sticky;
 		top: 6rem;
 		max-width: fit-content;
@@ -73,14 +73,14 @@
 		flex-direction: column;
 	}
 
-	.contact-links {
+	.links {
 		margin-top: 2.5rem;
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		gap: 1rem;
 	}
 
-	.contact-link {
+	.link {
 		display: flex;
 		align-items: center;
 		gap: 1rem;
@@ -92,11 +92,11 @@
 		border-bottom: 1px solid var(--border);
 	}
 
-	.contact-link:hover { 
+	.link:hover { 
 		color: var(--accent); 
 	}
 
-	.contact-link-icon {
+	.link-icon {
 		width: 32px;
 		height: 32px;
 		background: var(--surface);
@@ -110,7 +110,7 @@
 		flex-shrink: 0;
 	}
 
-	.contact-link:hover .contact-link-icon {
+	.link:hover .link-icon {
 		border-color: var(--accent);
 		background: rgba(0,229,160,0.06);
 	}
@@ -127,7 +127,7 @@
 			align-items: center;
 		}
 
-		.contact-links { 
+		.links { 
 			grid-template-columns: 1fr; 
 		}
   }
