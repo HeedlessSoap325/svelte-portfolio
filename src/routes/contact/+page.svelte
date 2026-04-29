@@ -109,4 +109,21 @@
 		border-color: var(--accent);
 		background: rgba(0,229,160,0.06);
 	}
+
+	@media (max-width: 640px) {
+    	.content { 
+			padding-left: 1.5rem; 
+			padding-right: 1.5rem; 
+		}
+
+		.header {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+
+		.contact-links { 
+			grid-template-columns: 1fr; 
+		}
+  }
 </style>
