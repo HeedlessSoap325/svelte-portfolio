@@ -12,7 +12,7 @@ interface Skill {
 }
 
 interface Tool {
-	href: string,
+	href: `https://${string}`,
 	name: string,
 }
 
