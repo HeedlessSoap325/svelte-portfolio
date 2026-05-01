@@ -1,8 +1,9 @@
-import { page } from '$app/state';
+import type { PathnameWithSearchOrHash } from '$app/types';
+import type { RouteIdWithSearchOrHash } from '$app/types';
 
 export interface Path {
 	name: string,
-	href: typeof page.url.pathname,
+	href: RouteIdWithSearchOrHash | PathnameWithSearchOrHash,
 };
 
 export const paths: Path[] = [
